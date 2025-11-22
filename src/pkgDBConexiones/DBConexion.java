@@ -4,8 +4,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DBConexion {
-	private static final String URL = "jdbc:mysql://192.168.1.109:3306/VehiculosDB";
-	private static final String USER = "user";
+	private static final String URL = "jdbc:mysql://192.168.1.90:3306/ContactosDB";
+	private static final String USER = "externaluser";
 	private static final String PASSWORD = "Test1234";
 
 	public static Connection connectarDB() {
